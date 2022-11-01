@@ -1,2 +1,0 @@
-# QiwiPayClient
-QiwiPay
