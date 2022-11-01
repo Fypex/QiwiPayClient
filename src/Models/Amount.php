@@ -19,10 +19,7 @@ class Amount
 
     }
 
-    /**
-     * @return float
-     */
-    public function getAmount(): float
+    public function getAmount()
     {
         return $this->amount;
     }

@@ -55,13 +55,9 @@ class QiwiClient{
             json_encode($body)
         );
 
-
         $response = $this->client->sendRequest($request);
 
-
-        $data = $this->handleResponse($response);
-
-        dd($data);
+        return $this->handleResponse($response);
 
     }
 
